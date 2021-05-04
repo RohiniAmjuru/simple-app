@@ -10,6 +10,6 @@ public class GreetingController {
 
     @GetMapping("/greeting")
     public String greet(@AuthenticationPrincipal OidcUser user){
-        return "Hello Rohini Amjuru";
+        return "Hello Rohini Amjuru!!!!";
     }
 }
